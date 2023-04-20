@@ -24,14 +24,21 @@ body {
 
 #okno {
   cursor: pointer;
-  margin-bottom: 3%;
+  margin-top: 0.6%;
+  margin-left: 93%;
+  z-index: 2;
+  position: fixed;
 }
 
 #menu {
   background: #332f2c no-repeat;
   height: auto;
-  width: auto;
+  width: 10%;
+  margin-top: 4.6%;
+  margin-left: 83%;
   display: none;
+  z-index: 3;
+  position: fixed;
 }
 
 #menu li a {
@@ -54,14 +61,6 @@ body {
 
 #menu li:hover{
   background: #474A51;
-}
-
-#vse {
-  flex-direction: column;
-  z-index: 2;
-  margin-top: 0.5%;
-  margin-left: 93%;
-  position: fixed;
 }
 
 .block {
