@@ -142,16 +142,16 @@ body {
   }
 }
 
-/*@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   #post {
-    width: 80%;
+    width: 76%;
   }
 
   .block {
-    margin: 25% 10% 12% 10%;
+    margin: 25% 12% 12% 12%;
   }
 
   .nextpost {
-    margin: 0 10% 12% 10%;
+    margin: 0 12% 12% 12%;
   }
-}*/
+}
