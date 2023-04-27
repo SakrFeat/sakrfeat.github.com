@@ -130,6 +130,20 @@ body {
 
 @media only screen and (min-width: 768px) {
   #post {
+    width: 84%;
+  }
+
+  .block {
+    margin: 25% 8% 12% 8%;
+  }
+
+  .nextpost {
+    margin: 0 8% 12% 8%;
+  }
+}
+
+/*@media only screen and (min-width: 1024px) {
+  #post {
     width: 80%;
   }
 
@@ -140,4 +154,4 @@ body {
   .nextpost {
     margin: 0 10% 12% 10%;
   }
-}
+}*/
