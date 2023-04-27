@@ -127,3 +127,17 @@ body {
     margin: 0 5% 12% 5%;
   }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #post {
+    width: 80%;
+  }
+
+  .block {
+    margin: 25% 10% 12% 10%;
+  }
+
+  .nextpost {
+    margin: 0 10% 12% 10%;
+  }
+}
