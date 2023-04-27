@@ -149,6 +149,11 @@ body {
   .nextpost {
     margin: 0 8% 12% 8%;
   }
+  
+   #okno {
+    margin-top: 1.5%;
+    margin-left: 84%;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -163,6 +168,7 @@ body {
   .nextpost {
     margin: 0 12% 12% 12%;
   }
+  
 }
 
 @media only screen and (min-width: 1366px) {
