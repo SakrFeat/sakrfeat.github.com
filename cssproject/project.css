@@ -22,47 +22,6 @@ body {
   margin: 1% 0 0 40%;
 }
 
-#okno {
-  cursor: pointer;
-  margin-top: 0.9%;
-  margin-left: 93%;
-  z-index: 2;
-  position: fixed;
-}
-
-#menu {
-  background: #332f2c no-repeat;
-  height: auto;
-  width: 10%;
-  margin-top: 5%;
-  margin-left: 86%;
-  display: none;
-  z-index: 3;
-  position: fixed;
-}
-
-#menu li a {
-  color: white;
-  text-decoration-line: none;
-}
-
-#menu li {
-  list-style-type: none;
-  cursor: pointer;
-  color: white;
-  padding-left: 5px;
-  padding-top: 10px;
-  padding-right: 6px;
-}
-
-#menu li:last-child {
-  padding-bottom: 10px;
-}
-
-#menu li:hover{
-  background: #474A51;
-}
-
 .lenta {
   flex-direction: column;
 }
@@ -127,11 +86,6 @@ body {
     margin: 0 5% 12% 5%;
   }
   
-  #okno {
-    margin-top: 1.5%;
-    margin-left: 86%;
-  }
-  
   #logo img {
   margin: 3% 0 0 35%;
 }
@@ -149,11 +103,6 @@ body {
   .nextpost {
     margin: 0 8% 12% 8%;
   }
-  
-   #okno {
-    margin-top: 1.5%;
-    margin-left: 90%;
-  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -168,11 +117,6 @@ body {
   .nextpost {
     margin: 0 12% 12% 12%;
   }
-  
-     #okno {
-    margin-top: 1.5%;
-    margin-left: 90%;
-  }  
 }
 
 @media only screen and (min-width: 1366px) {
@@ -187,11 +131,6 @@ body {
   .nextpost {
     margin: 0 15% 12% 15%;
   }
-  
-   #okno {
-    margin-top: 1.5%;
-    margin-left: 92%;
-  }  
 }
 
 @media only screen and (min-width: 1920px) {
@@ -206,9 +145,4 @@ body {
   .nextpost {
     margin: 0 20% 12% 20%;
   }
-  
-  #okno {
-    margin-top: 1.5%;
-    margin-left: 93%;
-  }  
 }
